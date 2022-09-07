@@ -12,7 +12,7 @@ function Shop() {
     const getproducts = () => {
         fetch("http://localhost:8080/")
             .then((res) => res.json())
-            .then((json) => setProducts(json))
+            .then((json) => setProducts(JSON.parse(json)))
     };
 
     console.log(products);
