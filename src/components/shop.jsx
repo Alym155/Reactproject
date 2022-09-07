@@ -10,7 +10,7 @@ function Shop() {
 
 
     const getproducts = () => {
-        fetch("https://fakestoreapi.com/products")
+        fetch("http://localhost:8080/")
             .then((res) => res.json())
             .then((json) => setProducts(json))
     };
