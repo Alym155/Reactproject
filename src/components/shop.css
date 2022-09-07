@@ -1,0 +1,22 @@
+
+.two img{
+    width: 100px;
+    height: 150px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.two{
+    width: 330px;
+    height: 360px;
+}
+.three .qq{
+    font-size:xx-small;
+}
+.three .qw{
+    font-size: small;
+    font-weight: bold;
+}
+.three .btt{
+    width: 100px;
+}
